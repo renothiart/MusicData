@@ -39,5 +39,5 @@ def search(search_term):
 	params = {'q' : search_term}
 	return make_api_request(endpoint, params=params)
 
-'''def get_album():
-	endpoint = 'albums/{}'.format(id)'''
+def get_album():
+	endpoint = 'albums/{}'.format(id)
