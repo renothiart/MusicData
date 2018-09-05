@@ -1,7 +1,6 @@
-'''album.py'''
 
-class Album:
-	'''A class representing an album, mixtape, EP, etc.'''
+class Album(object):
+	"""Represents the data for an album, mixtape, EP, etc."""
 
 	def __init__(self, name, artist=None, songs=[]):
 		self.name = name
